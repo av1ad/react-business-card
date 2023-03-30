@@ -1,0 +1,72 @@
+:root {
+    --greyish-blue: #23252C;
+    --dark-blue: #1A1B21;
+    --very-dark-blue: #161619;
+    --light-blue: #5093E2;
+    --smoke-white: #D1D5DB;
+    --beige: #F3BF99;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background: var(--greyish-blue);
+    color: #FFF;
+    width: 450px;
+}
+
+.main-content {
+    background: var(--dark-blue);
+    margin: 2em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 0 1em 1em 1em;
+    border-radius: 5px;
+}
+
+.aviad {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.about, .interest {
+    text-align: left;
+}
+
+
+.wrapper {
+    display: flex;  
+    flex-direction: column; 
+}
+
+.website {
+    margin-bottom: 1.5em;
+    color: #FFF;
+}
+
+.email-button {
+    background: var(--smoke-white);
+    padding: 0.75em 6em;
+    border-radius: 10px;
+    color: #161619;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 2em;
+    margin-top: -35px;
+    padding: 1em;
+    background: var(--very-dark-blue);
+    
+}
