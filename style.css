@@ -26,7 +26,7 @@ body {
 }
 
 .info {
-    padding: 0 1em 1em 1em;
+    padding: 0 2em 2em;
     border-radius: 5px;
 }
 
@@ -69,4 +69,8 @@ footer {
     padding: 1em;
     background: var(--very-dark-blue);
     
+}
+
+a:hover, a:focus {
+    opacity: .7;
 }
